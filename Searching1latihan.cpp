@@ -16,11 +16,13 @@ int main(){
 		if(bil[i]==angka){
 			cout<<"angka berada di indek ke- "<<i;
 			ditemukan = true;
-			break;
+		break;
 		}
-		if(ditemukan == false) {
-			cout<<"angka tidak ditemukan!"<<endl;
-			break;
-		}
-	}
 }
+if(ditemukan == false) {
+			cout<<"angka tidak ditemukan!"<<endl;
+		}
+}
+	
+	
+
